@@ -8,7 +8,7 @@ MAINTAINER HieuNG
 # Goto <springboot-cloud-microservice>/restful-basic/target/customer-0.0.1-SNAPSHOT.jar
 COPY customer-0.0.1-SNAPSHOT.jar /customer-0.0.1-SNAPSHOT.jar
 
-Expose 8080
+EXPOSE 8080
 
 # Execute Jar File
 CMD ["java","-jar", "customer-0.0.1-SNAPSHOT.jar"]  
